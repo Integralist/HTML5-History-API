@@ -4,7 +4,7 @@
 Description
 -----------
 
-This is the example found in the '[Dive into HTML5](http://diveintohtml5.org/history.html)' online book.
+This is an 'extended/improved' version of the example found in the '[Dive into HTML5](http://diveintohtml5.org/history.html)' online book.
 
 In the example the author demonstrates a photo gallery that links to different pages.
 
