@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>HTML5 History API by Integralist</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/Integralist/HTML5-History-API">Fork Me on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>HTML5 History API</h1>
+            <h2>Takes the pushState example from 'Dive into HTML5' and enhances it.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Integralist/HTML5-History-API/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Integralist/HTML5-History-API/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+      <span class="banner-fix"></span>
+
+      <section id="main_content">
+        <h1>HTML5 History API</h1>
+
+<h2>Description</h2>
+
+<p>This is an 'extended/improved' version of the example found in the '<a href="http://diveintohtml5.org/history.html">Dive into HTML5</a>' online book.</p>
+
+<p>In the example the author demonstrates a photo gallery that links to different pages.</p>
+
+<p>Each page has the same content/layout, the only difference is the photo being displayed.</p>
+
+<p>My issue with the example was that the home page had the full HTML layout/css but all other pages linked to only had the relevant section of the HTML for the gallery.</p>
+
+<p>I appreciate this made his example simpler to understand how the <code>XMLHttpRequest</code> was pulling in the fresh data and populating the current page, but I prefer a 'fuller' more realistic example where the HTML for all subsequent pages are also full pages and not just the HTML for the gallery/photo.</p>
+
+<p>For example, in the original version, if you disabled JavaScript then yes the link to the other page would still be accessible, but the design of it would be plain black text on white background because those pages don't feature the full HTML/CSS. So without JavaScript the page wasn't a good enough user experience (in my opinion).</p>
+
+<p>My example makes sure that if JavaScript is disabled then even the subsequent pages have a full design as per the initially loaded page (and means if a user is linked through from a search engine to a subsequent page that wasn't the home page - and they happen to have JavaScript disabled - then they would still see a fully 'designed' page!)</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Integralist">Integralist</a> can be found on <a href="https://github.com/Integralist/HTML5-History-API">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
